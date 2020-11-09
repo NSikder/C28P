@@ -94,6 +94,6 @@ function detect(rock,mangoa){
 function keyPressed(){
     if (keyCode==32){
 		sling.attach(stone.body);
-		
+		thrown = false;
     }
 }
